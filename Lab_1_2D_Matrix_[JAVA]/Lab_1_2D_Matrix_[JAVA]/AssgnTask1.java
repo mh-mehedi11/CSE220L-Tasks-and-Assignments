@@ -4,7 +4,11 @@ class AssgnTask1{
     //Complete this method so that it gives the Expected Output
     //YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static Integer rowRotation( Integer examWeek, String[][] matrix ){
+        Integer [] arr = new Integer[matrix[0].length];
+        int count=0;
+        for(int i=0; i<matrix.length; i++){
 
+        }
         //For this task you don't need to create new Matrix
 	//You can create 1D array if you need (but you can do it without creating any 1D array as well)
         //After rotation the Matrix should be printed inside the method
