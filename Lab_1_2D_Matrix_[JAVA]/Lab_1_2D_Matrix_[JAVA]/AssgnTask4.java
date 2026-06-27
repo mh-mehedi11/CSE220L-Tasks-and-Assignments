@@ -1,10 +1,5 @@
 //Assignment Task 04: Rotate Secret
 class AssgnTask4 {
-
-    // Complete this method so that it gives the Expected Output
-    // YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
-    // If needed you can create extra helper static methods
-    // if extra helper methods are used then you must submit those as well
     public static void rotateSecret(Character[][] board) {
         int l = board.length / 2;
         for (int i = 0; i < l; i++) {
@@ -18,8 +13,6 @@ class AssgnTask4 {
             }
         }
         System.out.println();
-        // Print the message inside of this method
-        // TO DO
     }
 
     public static void rotate(Character[][] b, int pos) {
@@ -39,7 +32,6 @@ class AssgnTask4 {
         b[pos][pos + 1] = br;
     }
 
-    // DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args) {
         System.out.print("===========Test#1===========\n");
         Character[][] board = {

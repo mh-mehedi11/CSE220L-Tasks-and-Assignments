@@ -1,24 +1,15 @@
 //Assignment Task 02: Matrix Compression
 class AssgnTask2 {
-
-    // Complete this method so that it gives the Expected Output
-    // YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static Integer[][] compressMatrix(Integer[][] matrix) {
         Integer[][] arr = new Integer[matrix.length / 2][matrix[0].length / 2];
         for (int i = 0; i < matrix.length; i += 2) {
             for (int j = 0; j < matrix[0].length; j += 2) {
-                arr[i/2][j/2] = matrix[i][j] + matrix[i + 1][j] + matrix[i][j + 1] + matrix[i + 1][j + 1];
+                arr[i / 2][j / 2] = matrix[i][j] + matrix[i + 1][j] + matrix[i][j + 1] + matrix[i + 1][j + 1];
             }
         }
-        // For this task you'll need to create new 2D array
-
-        // TO DO
-
-        // remove the line below and return the newly created Compressed 2D matrix
         return arr;
     }
 
-    // DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args) {
         Integer[][] matrix = {
                 { 1, 2, 3, 4 },

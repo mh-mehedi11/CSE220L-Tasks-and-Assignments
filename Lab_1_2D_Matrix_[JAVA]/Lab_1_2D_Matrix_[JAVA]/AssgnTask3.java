@@ -1,8 +1,5 @@
 //Assignment Task 03: Game Arena
 class AssgnTask3 {
-
-    // Complete this method so that it gives the Expected Output
-    // YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static void playGame(Integer[][] arena) {
         int count = 0;
         for (int i = 0; i < arena.length; i++) {
@@ -23,14 +20,8 @@ class AssgnTask3 {
             System.out.println("Points Gained: " + count + ". Your team has survived the game.");
         else
             System.out.println("Points Gained: " + count + ". Your team is out.");
-
-        // For this task you don't need to create any new 2D array
-        // just print the result inside the function
-
-        // TO DO
     }
 
-    // DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args) {
         Integer[][] arena = {
                 { 0, 2, 2, 0 },
